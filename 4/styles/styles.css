@@ -1,0 +1,341 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 20px
+    line-height: 36px
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-basket {
+    background: #756157;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button-search {
+    background: #756157;
+}
+
+.button-apply {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: ;
+}
+
+.button-reset {
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.hotels-card-detail-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background: #756157;
+}
+
+.hotels-card-favourites-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hotels-card-favourites-button-added {
+    background: #7DB54F;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.page-header {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.main-index {
+    background-color: #FFFFFF;
+    background-image: url(../images/background-welcome-sedona.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.information-sedona {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sedona-better {
+    color: #333333;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.reason-item-city, .reason-item-bridge {
+    text-align: center;
+    color: #FFFFFF;
+    background: #82B3D3;
+}
+
+.reason-title-city, .reason-title-bridge {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reason-description-city, .reason-description-bridge{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.reason-item-square, .reason-item-ourists {
+    text-align: center;
+    background: rgba(131, 179, 211, 0.12);
+}
+
+.reason-title-square, .reason-title-tourists {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reason-description-square, .reason-description-tourists {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.reason-item-road {
+    text-align: center;
+    background: rgba(131, 179, 211, 0.2);
+}
+
+.reason-title-road {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reason-description-road {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.recommendations-item-housing, .recommendations-item-souvenirs {
+    text-align: center;
+    background: rgba(131, 179, 211, 0.12);
+}
+.recommendations-title-housing, .recommendations-title-souvenirs {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.recommendations-description-housing, .recommendations-description-souvenirs {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.recommendations-title-food {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.recommendations-description-food {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.search {
+    text-align: center;
+}
+
+.question {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.travel-date {
+    color: #333333;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.mailing {
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url(../images/background-mailing.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.mailing-subscribe {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.useful-information {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.field {
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.page-footer {
+    font-style;: Regular;
+    font-size: 40px;
+    line-height: 40px;
+    align-items: center;
+}
+
+.page-footer a {
+    color: #000000;
+}
+
+.page-footer .contacts-phone-number {
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.inner-header-title {
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 78px;
+    align-items: left;
+}
+
+.breadcrumbs {
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+    color: inherit;
+}
+
+.catalog-filter {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.catalog-filter-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.sorting-container {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hotels-list {
+    font-weight: 700;
+}
+
+.hotels-card-type, .hotels-card-price {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.pagination {
+    background: #FFFFFF;
+}
+
+.pagination-link {
+    color: #FFFFFF;
+    background: #82B3D3;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.pagination-current{
+    color: #000000;
+    background: #F2F2F2;
+}
+
+.pagination-other {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
