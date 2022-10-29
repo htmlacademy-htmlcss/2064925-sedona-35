@@ -68,6 +68,9 @@ body {
 .button-reset {
     font-size: 16px;
     line-height: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
 }
 
 .hotels-card-detail-button {
